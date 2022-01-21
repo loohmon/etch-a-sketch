@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 201, 137);
+}
+
+h1 {
+    padding: 2%;
+    background-color: rgb(199, 162, 93);
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.container button {
+    background-color: white;
+    border: none;
+    padding: 1% 2%;
+}
+
+.grid-container {
+    margin: 1% auto;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+}
+
+.cell {
+    background-color: white;
+    border: 1px solid black;
+  }
